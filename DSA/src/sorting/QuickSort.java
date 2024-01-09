@@ -1,5 +1,7 @@
 package sorting;
 
+import java.util.Arrays;
+
 /**
  * Given a 'start' and 'end' index positions of the array 'input'.
  * Your task is to sort the elements between start and end using quick sort.
@@ -41,7 +43,8 @@ public class QuickSort {
 
 	public static void main(String[] args) {
 		int arr[] = {2, 6, 8, 5, 4};
-		
+		quickSort(arr, 0, arr.length-1);
+		System.out.println(Arrays.toString(arr));
 	}
 
 }
