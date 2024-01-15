@@ -115,16 +115,25 @@ public class ArrayHeap {
 	public String toString() {
 		return "ArrayHeap [arr=" + Arrays.toString(arr) + ", size=" + size + ", capacity=" + capacity + "]";
 	}
+	
+	public void heapSort() {
+		int n = getSize();
+		for(int i = 0; i<n; i++) {
+			this.arr[n-i-1] = delete();
+		}
+		System.out.print(Arrays.toString(this.arr));
+	}
 
 	public static void main(String args[]) {
 		
-		ArrayHeap heapArray = new ArrayHeap(10);
+		ArrayHeap heapArray = new ArrayHeap(4);
 		heapArray.insert(100);
 		heapArray.insert(12);
 		heapArray.insert(68);
 		heapArray.insert(102);
 		System.out.println("Heap after insertion: "+heapArray.toString());
-		System.out.println("Deleted: "+heapArray.delete());
-		System.out.println("Heap after deletion: "+heapArray.toString());
+		heapArray.heapSort();
+//		System.out.println("Deleted: "+heapArray.delete());
+//		System.out.println("Heap after deletion: "+heapArray.toString());
 	}
 }
