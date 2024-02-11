@@ -1,4 +1,4 @@
-package array;
+package array.easy;
 
 /**
  You are given array 'arr' containing 'n' integers. You are also given an integer 

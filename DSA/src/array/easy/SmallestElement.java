@@ -1,4 +1,4 @@
-package array;
+package array.easy;
 
 /*
 * You have been given an array 'arr' of 'n' unique non-negative integers.

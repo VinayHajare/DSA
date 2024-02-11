@@ -1,4 +1,4 @@
-package array;
+package array.easy;
 
 /**
    You are given a sorted integer array 'arr' of size 'n' non-negative integers.
