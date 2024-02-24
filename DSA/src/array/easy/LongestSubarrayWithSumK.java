@@ -48,7 +48,7 @@ public class LongestSubarrayWithSumK {
 		return maxLength;		
 	}
 	
-	// Better solution with TC : O(n) SC : O(n), it is better solution if array has negative, zero or positive
+	// Better solution with TC : O(n) SC : O(n), it is optimal solution if array has negative, zero or positive
 	private static int longestSubarrayWithSumK(int arr[], int k) {
 		int maxLength = 0;
 		int sum = 0;
