@@ -3,7 +3,7 @@ package array.easy;
 import java.util.Arrays;
 
 /**
- Given an array 'arr' with 'n' elements, the task is to rotate the arrayto the left by 'k' steps,
+ Given an array 'arr' with 'n' elements, the task is to rotate the array to the left by 'k' steps,
  where 'k' is non-negative. 
 */
 
